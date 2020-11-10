@@ -28,6 +28,7 @@ Linux_install Linux_update:
 # / <section:install>
 # \ <section:merge>
 MERGE  = README.md Makefile .gitignore apt.txt .vscode
+MERGE += bin lib src tmp
 # / <section:merge>
 
 master:
